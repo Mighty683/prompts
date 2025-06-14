@@ -1,6 +1,9 @@
 - Component is always exported as named export
 - Component is always wrapped in `memo` from `react`
 - Component has always a `displayName` set to the name of the component
+- Components over 200 lines should be split into smaller components
+- Small components ~20 lines can be placed in the same file as the main component
+- Other components should be placed in separate files on the same level as the main component
 - Hooks are always imported from `react` and are memoized where it's possible
 - Complex logic should be extracted to custom hooks and placed in `hooks.ts` file
 - Logic which is not related to React lifecycle should be extracted to utility functions and placed in `utils.ts` file
