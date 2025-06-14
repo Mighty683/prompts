@@ -1,0 +1,5 @@
+- Use `scss` scoped styles instead of `css` scoped styles.
+- Separate `types` into `types.ts` file.
+- Use Vue 3 Composition API.
+- Complex logic should be extracted to custom composables and placed in `composables.ts` file.
+- Logic which is not related to Vue lifecycle should be extracted to utility functions and placed in `utils.ts` file.

@@ -1,0 +1,10 @@
+- Component is always exported as named export
+- Component is always wrapped in `memo` from `react`
+- Component has always a `displayName` set to the name of the component
+- Hooks are always imported from `react` and are memoized where it's possible
+- Complex logic should be extracted to custom hooks and placed in `hooks.ts` file
+- Logic which is not related to React lifecycle should be extracted to utility functions and placed in `utils.ts` file
+- Props are always separate type from component and are in `types.ts` on level of component
+- Props are always exported as `type` and not `interface`
+- Props are always named `${ComponentName}Props`
+- Functions are typed with return type and parameters as separate types if they are complex
