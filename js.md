@@ -7,3 +7,7 @@
 - Separate external service calls eg: API calls, into `service.ts` file.
 - Separate utility functions into `utils.ts` file.
 - Prefer named exports over default exports.
+- All tokens, secrets etc should be stored in environment variables.
+- Use `import.meta.env` on front-end to access environment variables as for Vite specification.
+- Use `process.env` on back-end to access environment variables.
+- On backend use `dotenv` to load environment variables from `.env` file for local development.
