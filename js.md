@@ -1,0 +1,10 @@
+- Use locked versions of dependencies in `package.json`.
+- Use `pnpm` as default package manager.
+- Use `eslint` for linting.
+- Use `prettier` for code formatting.
+- Use `vitest` for unit testing.
+- Separate `types` into `types.ts` file.
+- Try to use `async/await` instead of `then/catch` for promises.
+- Use `import.meta.env` for environment variables.
+- Use `import` for importing modules.
+- Prefer named exports over default exports.
