@@ -11,3 +11,4 @@
 - Props are always exported as `type` and not `interface`
 - Props are always named `${ComponentName}Props`
 - Functions are typed with return type and parameters as separate types if they are complex
+- Avoid calling API directly inside components, instead use composables

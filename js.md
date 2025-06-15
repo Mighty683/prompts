@@ -4,7 +4,6 @@
 - Use `prettier` for code formatting.
 - Use `vitest` for unit testing.
 - Separate `types` into `types.ts` file.
-- Try to use `async/await` instead of `then/catch` for promises.
-- Use `import.meta.env` for environment variables.
-- Use `import` for importing modules.
+- Separate external service calls eg: API calls, into `service.ts` file.
+- Separate utility functions into `utils.ts` file.
 - Prefer named exports over default exports.
